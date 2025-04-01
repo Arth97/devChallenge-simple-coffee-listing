@@ -1,0 +1,10 @@
+.chip {
+  height: 15px;
+  width: 30px;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.chip-text {
+  color: #111315
+}
