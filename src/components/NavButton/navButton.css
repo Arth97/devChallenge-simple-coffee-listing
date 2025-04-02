@@ -1,0 +1,10 @@
+.nav-button {
+  color: #FEF7EE;
+  padding: 10px;
+}
+
+.nav-button-selected {
+  background-color: #4D5562;
+  border-radius: 10px;
+}
+
