@@ -4,7 +4,7 @@ import Chip from './Chip/chip.jsx';
 
 const ProductCard = (props) => {
 	return (
-		<div className="flex w-[260px] h-[240px] bg-white rounded-[20px]">
+		<div className="card">
 
 			<Chip></Chip>
 			<p>{}</p>
