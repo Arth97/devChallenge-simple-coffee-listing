@@ -3,7 +3,7 @@ import './chip.css';
 function Chip() {
   return ( 
     <div className="chip">
-      <p className="chip-text">Popular</p>
+      <p className="small-text">Popular</p>
     </div>
    );
 }

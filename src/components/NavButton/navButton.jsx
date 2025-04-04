@@ -4,7 +4,7 @@ import './navButton.css';
 const NavButton = ({textButton, selected}) => {
   return (
     <div className={`nav-button ${selected ? 'nav-button-selected' : ''}`}>
-      <p>{textButton}</p>
+      <p className="label">{textButton}</p>
     </div>
   );
 };
