@@ -23,7 +23,7 @@ const CoffeeList = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 gap-7">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
       {
         coffeeData.map(coffee => (
           <CoffeeCard coffee={coffee} key={coffee.id} />

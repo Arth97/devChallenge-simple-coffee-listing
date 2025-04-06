@@ -20,3 +20,4 @@ export default App;
 
 // TODO: En chip cambiar la fuente (tamaño texto) para que quepa.
 // TODO: Corregir spacing en navButtons
+// TODO: Fix width del subheader
