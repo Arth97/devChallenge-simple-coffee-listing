@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
 			<CollectionHeader />
-      <div className="nav-products flex justify-around mb-10">
+      <div className="nav-products flex gap-4 mb-10">
         <NavButton textButton="All Products" selected={true} />
         <NavButton textButton="Avalible Now" selected={false} />
       </div>
