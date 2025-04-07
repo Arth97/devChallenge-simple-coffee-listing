@@ -4,7 +4,7 @@ import './coffeeList.css';
 import { useEffect, useState } from 'react';
 import CoffeeCard from './CoffeeCard/coffeeCard.jsx';
 
-const CoffeeList = () => {
+const CoffeeList = ({ showOnlyAvailableCoffee }) => {
 
   const [coffeeData, setCoffeeData] = useState([]);
 
@@ -14,18 +14,21 @@ const CoffeeList = () => {
     )
       .then((response) => response.json())
       .then((data) => {
-        console.log("data", data)
         setCoffeeData(data);
       })
       .catch((error) => {
-        console.log("error", error)
+        console.log("error", error);
       });
   }, []);
+
+  const filteredData = showOnlyAvailableCoffee 
+		? coffeeData.filter(coffee => coffee.available)
+    : coffeeData 
 
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-7">
       {
-        coffeeData.map(coffee => (
+        filteredData.map(coffee => (
           <CoffeeCard coffee={coffee} key={coffee.id} />
         ))
       }

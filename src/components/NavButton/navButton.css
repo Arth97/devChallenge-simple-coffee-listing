@@ -1,6 +1,7 @@
 .nav-button {
   color: #FEF7EE;
   padding: 5px 10px;
+	cursor: pointer;
 }
 
 .nav-button-selected {
