@@ -1,5 +1,5 @@
 @media (min-width: 1023.9px) {
-	p {
+	.description {
 		width: 60%;
 	}
 }
