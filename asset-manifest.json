@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/devChallenge-simple-coffee-listing/static/css/main.d0a54809.css",
-    "main.js": "/devChallenge-simple-coffee-listing/static/js/main.004f7903.js",
+    "main.css": "/devChallenge-simple-coffee-listing/static/css/main.80da0263.css",
+    "main.js": "/devChallenge-simple-coffee-listing/static/js/main.33c2906d.js",
     "static/media/bg-cafe.jpg": "/devChallenge-simple-coffee-listing/static/media/bg-cafe.b6676f218eaa18ab410a.jpg",
     "index.html": "/devChallenge-simple-coffee-listing/index.html",
-    "main.d0a54809.css.map": "/devChallenge-simple-coffee-listing/static/css/main.d0a54809.css.map",
-    "main.004f7903.js.map": "/devChallenge-simple-coffee-listing/static/js/main.004f7903.js.map"
+    "static/media/vector.svg": "/devChallenge-simple-coffee-listing/static/media/vector.dba19b27c01d7e543bcf.svg",
+    "main.80da0263.css.map": "/devChallenge-simple-coffee-listing/static/css/main.80da0263.css.map",
+    "main.33c2906d.js.map": "/devChallenge-simple-coffee-listing/static/js/main.33c2906d.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0a54809.css",
-    "static/js/main.004f7903.js"
+    "static/css/main.80da0263.css",
+    "static/js/main.33c2906d.js"
   ]
 }
