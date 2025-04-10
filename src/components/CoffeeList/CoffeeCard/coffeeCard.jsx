@@ -24,8 +24,7 @@ const CoffeeCard = ({coffee}) => {
 							{
 								coffee.rating > 0 ? 
 								<span className="label" style={{color: "#6F757C"}}> ({coffee.votes} votes) </span>
-								: <span className="label" style={{color: "#6F757C"}}>No Ratings</span>
-								
+								: <span className="label" style={{color: "#6F757C"}}>No Ratings</span>								
 							}
 						</span>
 					</span>

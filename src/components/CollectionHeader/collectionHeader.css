@@ -1,5 +1,9 @@
+.headerSvg {
+	background: url('/public/vector.svg') center no-repeat;
+}
+
 @media (min-width: 1023.9px) {
 	.description {
-		width: 60%;
+		width: 50%;
 	}
 }
